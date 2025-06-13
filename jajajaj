@@ -41,9 +41,9 @@ if (hr <= 5) {
 
 console.log( saludo(hora) );    */
 
+/*
 
-
-/*const autos = [
+const autos = [
         {marca: 'BMW',  modelo: 'Serie 3', year: 2012, precio: 30000, puertas: 4, color: 'Blanco', transmision: 'automatico'},
         {marca: 'Audi', modelo: 'A4',  year: 2018, precio: 40000, puertas: 4, color: 'Negro', transmision: 'automatico'},
         {marca: 'Ford', modelo: 'Mustang',  year: 2015, precio: 20000, puertas: 2, color: 'Blanco', transmision: 'automatico'},
@@ -64,7 +64,9 @@ console.log( saludo(hora) );    */
         {marca: 'Mercedes Benz', modelo: 'Clase C',  year: 2018, precio: 40000, puertas: 4, color: 'Blanco', transmision: 'automatico'},
         {marca: 'Audi', modelo: 'A4',  year: 2016, precio: 30000, puertas: 4, color: 'Azul', transmision: 'automatico'}
 ];
+*/
 
+/*
 const marcas = autos.map(auto => {
     return auto.modelo
 });
@@ -77,5 +79,48 @@ const autosRojos = autos.filter(auto => {
 });
 console.log(autosRojos);
 
+
+*/
+
+
+/*
+const totalInventario = autos.reduce((total, auto) => total + auto.precio, 0);
+console.log(totalInventario);
+*/
+
+/*
+// Define una función con dos parámetros regulares y un parámetro rest:
+function miBio(primerNombre, apellido, ...otraInfo) { 
+  return otraInfo;
+}
+
+// Invoca la función miBio pasando cinco argumentos a sus parámetros:
+miBio("Oluwatobi", "Sofela", "CodeSweetly", "Desarrollo Web", "Hombre");
+
+// La invocación anterior devolverá:
+["CodeSweetly", "Desarrollo Web", "Hombre"]
+
+*/
+
+
+
+
+/*
+const miNombre = ["Sofela", "es", "mi"];
+const sobreMi = ["Oluwatobi", ...miNombre, "nombre."];
+
+console.log(sobreMi);
+
+// La invocación anterior devolverá:
+[ "Oluwatobi", "Sofela", "es", "mi", "nombre." ]
+ */
+
+/*
+const miNombre = "Oluwatobi Sofela";
+
+console.log([...miNombre]);
+
+// La invocación anterior devolverá:
+[ "O", "l", "u", "w", "a", "t", "o", "b", "i", " ", "S", "o", "f", "e", "l", "a" ]
 
 */
